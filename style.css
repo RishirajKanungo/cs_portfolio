@@ -1,17 +1,53 @@
+/* Formatting the navigation */
 .menu{
     display: table;
     margin: 0 auto;
 }
 
-
+/* Make the list in navigation horizontal */
 #menu li{
     display: inline;
 }
 
+/* Setting up the circle picture and centering it */
 #circlePic{
     width: 350px;
     height: 350px;
     background: black;
     border-radius: 350px;
     margin: auto;
+}
+
+/* Center text of my name */
+#name{
+    text-align: center;
+}
+
+/* Center text of my degree */
+#degree{
+    text-align: center;
+}
+
+/* About Me portion formatting */
+.aboutme{
+    text-align: center;
+}
+
+/* Tech Skills formatting */
+.tech_skills{
+    text-align: center;
+    
+}
+
+#skill_item li{
+    display: inline;
+}
+
+.work_exp{
+    text-align: center;
+    
+}
+
+#worked_at li{
+    display: inline;
 }
