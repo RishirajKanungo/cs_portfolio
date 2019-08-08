@@ -56,7 +56,6 @@ body{
 .name{
     text-align: center;
     color: #1f1f1f;
-    font-size: 20px;
 }
 #text{
     font-family: nameFont;
@@ -94,18 +93,8 @@ body{
     font-family: nameFont;
     color: #1f1f1f;
 }
-/* Padding the images on top*/
 #skill_item{
-    padding: 1.5%;
-}
-/* Padding each image from eachother*/
-#skill_item img{
-    transition: .2s;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-#skill_item img:hover{
-    transform: scale(1.1);
+    padding: 5%;
 }
 
 
