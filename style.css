@@ -1,3 +1,8 @@
+/* Background Setup*/
+body{
+    background-color: #fff8e8;
+}
+
 /* Formatting the navigation */
 .menu{
     display: table;
@@ -19,7 +24,7 @@
 }
 
 /* Center text of my name */
-#name{
+.name{
     text-align: center;
 }
 
