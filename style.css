@@ -1,3 +1,15 @@
+/* Defining the font for "Rishiraj Kanungo"*/
+@font-face{
+    font-family: nameFont;
+    src: url('/Roboto_Mono/RobotoMono-Bold.ttf')
+}
+
+@font-face{
+    font-family: degreeFont;
+    src: url('/Roboto_Mono/RobotoMono-Light.ttf')
+}
+
+
 /* Background Setup*/
 body{
     background-color: #fff8e8;
@@ -8,7 +20,6 @@ body{
     display: table;
     margin: 0 auto;
 }
-
 /* Make the list in navigation horizontal */
 #menu li{
     display: inline;
@@ -16,10 +27,10 @@ body{
 
 /* Setting up the circle picture and centering it */
 #circlePic{
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     background: black;
-    border-radius: 350px;
+    border-radius: 450px;
     margin: auto;
 }
 
@@ -27,40 +38,63 @@ body{
 .name{
     text-align: center;
 }
+#text{
+    font-family: nameFont;
+}
 
 /* Center text of my degree */
 #degree{
     text-align: center;
+    font-family: degreeFont;
 }
 
 /* About Me portion formatting */
-.aboutme{
+.aboutme h2{
     text-align: center;
+    font-family: nameFont;
+}
+.aboutme p{
+    text-align: center;
+    font-family: degreeFont;
+    padding-left: 25%;
+    padding-right: 25%;
+
 }
 
 /* Tech Skills formatting */
 .tech_skills{
-    text-align: center;
-    
+    text-align: center;   
 }
-
+.tech_skills h2{
+    font-family: nameFont;
+}
 #skill_item li{
     display: inline;
 }
 
+/* Work Experience Formatting*/
 .work_exp{
     text-align: center;
-    
 }
-
+.work_exp h2{
+    font-family: nameFont;
+}
 #worked_at li{
     display: inline;
 }
 
+/* Projects Formatting*/
 .projects{
     text-align: center;
 }
+.projects h2{
+    font-family: nameFont;
+}
 
+/* Social Media Formatting */
 .social_media{
     text-align: center;
+}
+.social_media h2{
+    font-family: nameFont;
 }
