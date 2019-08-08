@@ -7,3 +7,11 @@
 #menu li{
     display: inline;
 }
+
+#circlePic{
+    width: 350px;
+    height: 350px;
+    background: black;
+    border-radius: 350px;
+    margin: auto;
+}
