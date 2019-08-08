@@ -18,7 +18,25 @@ body{
 /* Formatting the navigation */
 .menu{
     display: table;
-    margin: 0 auto;
+    margin: auto;
+}
+
+/* Formatting Navigation Menu at top*/
+.btn button{
+    border: 1px solid #1f1f1f;
+    color: #1f1f1f;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 14px 40px;
+    font-family: degreeFont;
+    background: #fff8e8;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+/* Hover animation for Navigation Bar*/
+.btn button:hover{
+    background: #1f1f1f;
+    color: #fff8e8;
 }
 /* Make the list in navigation horizontal */
 #menu li{
@@ -29,7 +47,7 @@ body{
 #circlePic{
     width: 450px;
     height: 450px;
-    background: black;
+    background: #1f1f1f;
     border-radius: 450px;
     margin: auto;
 }
