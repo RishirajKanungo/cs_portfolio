@@ -13,6 +13,11 @@
 </head>
 <!-- Content of Page-->
 <body>
+
+    <script>
+        document.body.classList.add('fade');
+    </script>
+
     <!-- Navigation Bar -->
     <header>
         <!-- Menu at top for navigation purposes -->
@@ -125,6 +130,12 @@
     <div class="social_media">
         <h2>Social Media</h2>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.classList.remove('fade');
+        });
+    </script>
 
     <!-- Script to run for website -->
     <script src="main.js"></script>

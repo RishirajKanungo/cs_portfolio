@@ -13,6 +13,12 @@
 /* Background Setup*/
 body{
     background-color: #fff8e8;
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade{
+    opacity: 0;
+    transition: none;
 }
 
 /* Formatting the navigation */
