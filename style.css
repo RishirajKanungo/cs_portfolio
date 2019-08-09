@@ -69,17 +69,6 @@ body.fade{
     opacity: 1;
     animation: blink .7s infinite;
 
-    @keyframes blink {
-        0%{
-            opacity: 1;
-        }
-        50%{
-            opacity: 0;
-        }
-        100%{
-            opacity: 1;
-        }
-    }
 }
 #text{
     display: inline;
@@ -125,6 +114,7 @@ body.fade{
     transition: .2s;
     padding-left: 3%;
     padding-right: 3%;
+    padding-bottom: 2%;
 }
 #skill_item img:hover{
     transform: scale(1.1);

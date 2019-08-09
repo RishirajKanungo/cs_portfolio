@@ -24,11 +24,11 @@
         <div class="menu">
             <div class="btn">
                 <ul id="items">
-                    <button>About Me</button>
-                    <button>Technical Skills</button>
-                    <button>Work Experience</button>
-                    <button>Projects</button>
-                    <button>Social Media</button>
+                    <button class="aboutme_button">About Me</button>
+                    <button class="skills_button">Technical Skills</button>
+                    <button class="work_button">Work Experience</button>
+                    <button class="project_button">Projects</button>
+                    <button class="socialmedia_button">Social Media</button>
                 </ul>
             </div>
         </div>
@@ -46,11 +46,12 @@
         <script type="text/javascript">
             var typing_name = new Typed('#text',{
             strings: ["My naem is ", "My name is <strong>Rishiraj Kanungo</strong>"],
-            startDelay: 100,
+            startDelay: 2000,
             typeSpeed: 25,
             backSpeed: 40,
             smartBackspace: true,
-            loop: true,
+            backDelay: 500,
+            loop: false,
             });
         </script>
     </div>
