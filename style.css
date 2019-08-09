@@ -59,6 +59,8 @@ body{
     font-size: 20px;
 }
 #text{
+    padding-top: 2%;
+    font-size: 48px;
     font-family: nameFont;
     color: #1f1f1f;
 }
@@ -89,10 +91,6 @@ body{
 .tech_skills{
     text-align: center;  
     color: #1f1f1f; 
-}
-.tech_skills h2{
-    font-family: nameFont;
-    color: #1f1f1f;
 }
 /* Padding the images on top*/
 #skill_item{

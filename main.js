@@ -1,12 +1,30 @@
-//import typed js framework "typed.js"
-import Typed from 'typed.js';
+/*
+AnimateCircle("javaskill", .7)
 
-//set up var for typing name to do the typing animation
-var typing_name = new Typed('#rishi',{
-    strings: ['My naem is ', 'My name is <strong>Rishiraj Kanungo</strong>'],
-    typeSpeed: 1,
-    backSpeed:  1,
-    smartBackspace: true,
-    showCursor: true,
-    loop: true
-});
+function AnimateCircle(container_id, animatePercentage, useColor) {
+    var useColor = '#FC5B3F';
+
+    var element = document.getElementById(container_id);
+    var circle = new ProgressBar.Circle(element, {
+        color: useColor,
+        duration: 2000,
+        easing: 'bounce',
+        strokeWidth: 5,
+        // Set default step function for all animate calls
+        step: function (state, circle) {
+            circle.path.setAttribute('stroke', state.color);
+        }
+    });
+
+    circle.animate(animatePercentage, {
+        from: {
+            color: useColor
+        },
+        to: {
+            color: useColor
+        }
+    });
+}
+*/
+
+console.log("hello");
