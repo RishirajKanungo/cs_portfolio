@@ -102,6 +102,7 @@ body.fade{
 
 /* Tech Skills formatting */
 .tech_skills{
+    font-family: nameFont;
     text-align: center;  
     color: #1f1f1f; 
 }
