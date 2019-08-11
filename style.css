@@ -113,9 +113,11 @@ body.fade{
 /* Padding each image from eachother*/
 #skill_item img{
     transition: .2s;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-bottom: 2%;
+    padding-top: 2%;
+    color: #1f1f1f;
 }
 #skill_item img:hover{
     transform: scale(1.1);
