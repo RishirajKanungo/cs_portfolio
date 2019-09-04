@@ -100,7 +100,7 @@ body.fade{
 
 }
 
-/* Tech Skills formatting */
+/* Tech Skills Header formatting */
 .tech_skills{
     font-family: nameFont;
     text-align: center;  
@@ -110,18 +110,27 @@ body.fade{
 #skill_item{
     padding: 1.5%;
 }
-/* Padding each image from eachother*/
+/* Changing each image from eachother*/
 #skill_item img{
     transition: .2s;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
     padding-top: 2%;
-    color: #1f1f1f;
+    display: inline;
 }
+
+.slides div{
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+/* Hover animation*/
 #skill_item img:hover{
     transform: scale(1.1);
 }
+
 
 
 
