@@ -14,7 +14,6 @@
     <!-- Script source for typing out the name -->
     <script src="typed.js-master/js/typed.js"></script>
     
-    <!-- Script source for content slider for technical skills and work experience -->
 
 
 </head>
@@ -85,32 +84,16 @@
     <!-- Tech Skills Portion-->
     <div class="tech_skills">
         <h2>Technical Skills</h2>
-        <div id="skill_item">
-            <!-- Glider for the tech skills-->
-            <ul class="slides">
-                <div id="javaskill">
-                    <img src="java_logo.png" alt="Java" width="80" height="80">
-                </div> 
-                <div id="pythonskill">
-                    <img src="python_logo.png" alt="Python" width="80" height="80">
-                </div>
-                <div id="htmlskill">
-                    <img src="html_logo.png" alt="HTML5" width="80" height="80">
-                </div>
-                <div id="cssskill">
-                    <img src="css_logo.svg" alt="CSS3" width="80" height="80">
-                </div>
-                <div id="javascriptskill">
-                    <img src="javascript_logo.svg" alt="JavaScript" width="80" height="80">
-                </div>
-                <div id="cskill">
-                    <img src="c_logo.png" alt="C" width="80" height="80">  
-                </div>
-                <div id="gitskill">
-                    <img src="git_logo.png" alt="Git" width="80" height="80">
-                </div>
-            </ul>
-        </div>
+    </div>
+
+    <div class="skill_item">
+        <div id="javaskill"><img src="java_logo.png" alt="Java" width="80" height="80"></div> 
+        <div id="pythonskill"><img src="python_logo.png" alt="Python" width="80" height="80"></div>
+        <div id="htmlskill"><img src="html_logo.png" alt="HTML5" width="80" height="80"></div>
+        <div id="cssskill"><img src="css_logo.svg" alt="CSS3" width="80" height="80"></div>
+        <div id="javascriptskill"><img src="javascript_logo.svg" alt="JavaScript" width="80" height="80"></div>
+        <div id="cskill"><img src="c_logo.png" alt="C" width="80" height="80">  </div>
+        <div id="gitskill"><img src="git_logo.png" alt="Git" width="80" height="80"></div>
     </div>
 
     <!-- Work Experience Portion-->
@@ -143,35 +126,11 @@
     </script>
 
     <!-- Script to run for website -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="slick-1.8.1/slick/slick.js" type="text/javascript"></script>
 
-    <script>
-        $('.slides').slick({
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 3,
-            responsive: [
-                {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 3
-                }
-                },
-                {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
-                }
-            ]
-        });
+    <script src="main.js">
     </script>
  
 

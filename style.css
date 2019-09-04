@@ -106,37 +106,26 @@ body.fade{
     text-align: center;  
     color: #1f1f1f; 
 }
-/* Padding the images on top*/
-#skill_item{
+/* Padding the images on top and aligning the images for languages*/
+.skill_item{
     padding: 1.5%;
+    display: flex;
+    text-align: center;
+    
 }
 /* Changing each image from eachother*/
-#skill_item img{
+.skill_item img{
     transition: .2s;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-    padding-top: 4%;
-    display: inline;
-}
-
-/* Make the images in a horizontal line for the tech skills*/
-.slides div{
+    padding: 1%;
+    padding-right: 20%;
     display: inline-block;
-    list-style-type: none;
     vertical-align: middle;
 }
 
 /* Hover animation*/
-#skill_item img:hover{
+.skill_item img:hover{
     transform: scale(1.1);
 }
-
-.slides{
-    overflow: hidden;
-}
-
-
 
 
 /* Work Experience Formatting*/
