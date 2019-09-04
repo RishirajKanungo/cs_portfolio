@@ -41,6 +41,11 @@
     outline: none;
     background: transparent;
 }
+
+.slick-slide{
+    width: 200px;
+}
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,

@@ -108,23 +108,31 @@ body.fade{
 }
 /* Padding the images on top and aligning the images for languages*/
 .skill_item{
-    padding: 1.5%;
-    display: flex;
-    text-align: center;
+    position: relative;
+    width: 600px;
+    margin: auto;
+
+    
     
 }
 /* Changing each image from eachother*/
 .skill_item img{
     transition: .2s;
-    padding: 1%;
-    padding-right: 20%;
-    display: inline-block;
-    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+
+
 }
 
 /* Hover animation*/
 .skill_item img:hover{
     transform: scale(1.1);
+}
+
+/* Make the color of the slider arrow to be black*/
+.slick-prev:before,
+.slick-next:before {
+  color: #1f1f1f;
 }
 
 
