@@ -9,6 +9,10 @@
     src: url('/Roboto_Mono/RobotoMono-Light.ttf')
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 /* Background Setup*/
 body{
@@ -87,6 +91,7 @@ body.fade{
 
 /* About Me portion formatting */
 .aboutme h2{
+    padding-top: 3%;
     text-align: center;
     font-family: nameFont;
     color: #1f1f1f;
@@ -105,23 +110,20 @@ body.fade{
     font-family: nameFont;
     text-align: center;  
     color: #1f1f1f; 
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 /* Padding the images on top and aligning the images for languages*/
 .skill_item{
     position: relative;
-    width: 600px;
+    width: 500px;
     margin: auto;
-
-    
-    
 }
 /* Changing each image from eachother*/
 .skill_item img{
     transition: .2s;
     margin: 0 auto;
     text-align: center;
-
-
 }
 
 /* Hover animation*/
@@ -144,6 +146,8 @@ body.fade{
 .work_exp h2{
     font-family: nameFont;
     color: #1f1f1f;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 #worked_at li{
     display: inline;
@@ -168,4 +172,21 @@ body.fade{
 .social_media h2{
     font-family: nameFont;
     color: #1f1f1f;
+}
+
+.projects{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.github_image{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    transition: .2s;
+    padding-bottom: 1%;
+}
+
+.github_image:hover{
+    transform: scale(1.1);
 }
