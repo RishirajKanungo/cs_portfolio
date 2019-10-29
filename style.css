@@ -54,12 +54,13 @@ body.fade{
 }
 
 /* Setting up the circle picture and centering it */
-#circlePic{
-    width: 450px;
-    height: 450px;
-    background: #1f1f1f;
-    border-radius: 450px;
-    margin: auto;
+#PicOfMe{
+    border: 1px solid #1f1f1f;
+    transform: scale(.8);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Center text of my name */
